@@ -28,6 +28,7 @@ class MailPrincipal extends Mailable
      */
     public function build()
     {
+        
         return $this->view('mail');
     }
 }
