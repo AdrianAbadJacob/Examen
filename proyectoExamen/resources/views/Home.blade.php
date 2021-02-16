@@ -6,7 +6,7 @@
       <h1 class="mt-5">Bienvenido</h1>
       <p class="lead">Gracias por visitarnos.</p>
       
-      <img src="img/pexels.jpeg">
+      <img src="img/pexels2.jpeg">
     </div>
 </main>
 
