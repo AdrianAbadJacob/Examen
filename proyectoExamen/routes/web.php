@@ -1,6 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Mail\MailPrincipal;
+use Illuminate\Support\Facades\Mail;
 
 /*
 |--------------------------------------------------------------------------
@@ -20,6 +22,8 @@ Route::get('/Home', function () {
     return view('Home');
 });
 Route::get('/mail', function () {
+    $correo = new MailPrincipal;
+    Mail::to('destinatario@correo.com')->send(‘correo’);
     return view('mail');
 });
 Route::get('/migraciones', function () {
