@@ -19,3 +19,13 @@ Route::get('/', function () {
 Route::get('/Home', function () {
     return view('Home');
 });
+Route::get('/mail', function () {
+    return view('mail');
+});
+Route::get('/migraciones', function () {
+    return view('migraciones');
+});
+Route::get('/seeders', function () {
+    return view('seeders');
+});
+
