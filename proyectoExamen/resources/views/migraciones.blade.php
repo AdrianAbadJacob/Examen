@@ -4,7 +4,7 @@
     <div class="container">
         <h1>*</h1>
         <h1 class="mt-5">Migraciones</h1>
-        <p class="lead">Se han hecho las migraciones pertinentes.</p>
+        <p class="lead">Tu petición se ha realizado correctamente.</p>
     </div>
 </main>
 
